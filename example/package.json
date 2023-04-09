@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "source": "index.js",
+  "scripts": {
+    "start": "parcel watch --target node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "parcel-resolver-test": "*"
+  },
+  "targets": {
+    "node": {
+      "context": "node"
+    }
+  }
+}

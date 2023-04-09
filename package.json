@@ -1,0 +1,8 @@
+{
+  "name": "parcel-resolver-sample",
+  "private": true,
+  "workspaces": [
+    "resolver",
+    "example"
+  ]
+}
